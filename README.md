@@ -1,4 +1,5 @@
 # short-projects
+This is a repository containing frontend short projects. 
 
 ## Table of Contents
 * [01-Stopwatch](#01-Stopwatch)
