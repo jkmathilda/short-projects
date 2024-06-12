@@ -1,47 +1,49 @@
-body{
-    background-color: yellow;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+body {
+  background-color: palegreen;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-    background-color: darkcyan;
-    color: aliceblue;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
+.container {
+  background-color: mediumseagreen;
+  color: mintcream;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
 }
 
-
-.currency-container{
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
+.currency-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.currency-container select{
-    padding: 10px;
+.currency-container select {
+  padding: 10px;
 }
 
-.currency-container input{
-    border: 0;
-    background: transparent;
-    font-size: 25px;
-    text-align: right;
-    color: aliceblue;
+.currency-container input {
+  border: 0;
+  background: transparent;
+  font-size: 25px;
+  text-align: right;
+  color: mintcream;
 }
 
-.exchange-rate{
-    font-size: 16px;
-    font-weight: 600;
+.exchange-rate {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 select:focus,
-input:focus{
-    outline: 0;
+input:focus {
+  outline: 0;
 }
