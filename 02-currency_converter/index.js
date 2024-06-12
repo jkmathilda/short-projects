@@ -8,11 +8,14 @@ const worthSecondEl = document.getElementById("worth-second");
 
 const exchangeRateEl = document.getElementById("exchange-rate");
 
+import { config } from './config.js';
+
 updateRate()
 
 function updateRate() {
+  const apiKey = config.EXCHANGE_RATE_API_KEY;
   fetch(
-    `https://v6.exchangerate-api.com/v6/5f9d1c87f7250159c9c9b17d/latest/${currencyFirstEl.value}`
+    `https://v6.exchangerate-api.com/v6/${apiKey}/latest/${currencyFirstEl.value}`
   )
     .then((res) => res.json())
     .then((data) => {
